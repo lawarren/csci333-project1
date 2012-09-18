@@ -11,16 +11,6 @@ TEST(StackTest, Push) {
 
 TEST(StackTest, Resize) {
   Stack* s = new Stack();
-/*  s->push(6);
-  s->push(6);
-  s->push(6);
-  s->push(6);
-  s->push(6);
-  s->push(6);
-  s->push(6);
-  s->push(6);
-  s->push(6);
-  s->push(6); */
   s->push(6); 
   s->push(6);
   s->push(6);
